@@ -1,0 +1,110 @@
+header h3{
+    margin: -20px 50px 0 0;
+}
+
+.maincontent{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+}
+.form1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    margin: 10px auto;
+}
+
+legend{
+    padding: 10px;
+}
+
+form div{
+    margin: 10px;
+}
+
+form label{
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.form1 input{
+    width: 180px;
+}
+
+.buttons{
+    margin: 10px 10px 10px 150px;
+}
+
+form input[type=reset]{
+    padding: 10px;
+}
+
+form input[type=submit]{
+    padding: 15px;;
+}
+
+.form2{
+    margin: 10px auto;
+}
+
+.form2 h4{
+    font-size: larger;
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.checkboxes{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.checkboxes label{
+    width: 90%;
+}
+
+.visit{
+    margin-top: 20px;
+}
+
+.radios{
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.radios label{
+    width: 50px;
+}
+
+.buttons2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input:focus{
+    background-color: rgb(255, 240, 37);
+}
+
+select:focus{
+    background-color: rgb(255, 240, 37);
+}
+
+textarea:focus{
+    background-color: rgb(255, 240, 37);
+}
+
+@media screen and (max-width:1300px){
+    .form1{
+        width: 75%;
+    }
+}

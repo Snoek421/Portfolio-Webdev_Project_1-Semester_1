@@ -1,0 +1,46 @@
+.maincontent{
+    text-align: center;
+    margin: 40px 20px;
+    display: grid;
+    grid-gap: 15px;
+    align-content: center;
+    grid-template-columns: minmax(300px, 1fr) 2fr;
+}
+
+.maincontent h2{
+    margin-top: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.maincontent p{
+    text-align: justify;
+    
+}
+
+.maincontent img{
+    border: 2px groove #0e040f;
+}
+
+.right-sidebar{
+    text-align: center;
+}
+
+.right-sidebar img{
+    width: 125px;
+    height: 125px;
+}
+
+@media screen and (max-width:1700px){
+    #bandpic{
+        width: 650px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width:1450px){
+    #bandpic{
+        width: 400px;
+        height: 267px;
+    }
+}

@@ -1,0 +1,45 @@
+.maincontent h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.maincontent .videoplayer{
+    display: block;
+    margin: 50px auto;
+}
+
+iframe{
+    border: 3px groove #8a0524;
+}
+
+.mainvid figcaption{
+    margin-bottom: -40px;
+    padding: 0;
+}
+
+.right-sidebar{
+    height: 845px;
+}
+
+.sidebarvids ul{
+    margin-top: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 795px;
+    grid-gap: 35px;
+    overflow-y: auto;
+}
+
+.right-sidebar iframe{
+    display: block;
+}
+
+@media screen and (max-width:1800px){
+    .maincontent .videoplayer{
+        width: 720px;
+        height: 480px;
+    }
+    .mainvid figcaption{
+        text-align: center;
+    }
+}

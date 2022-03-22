@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!--Casey Snoek || Student number: 8799131--> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../images/favicon-32x32.png">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/feedback.css">
+        <title>What is Osaka Punch?</title>
+    </head>
+    <body>
+        <header>
+            <img src="../images/OSAKA PUNCH WHITE logo.webp" alt="words Osaka Punch with a logo in between">
+            <h1>What is Osaka Punch?</h1>
+            <h3>Thanks for Visiting!</h3>
+        </header>
+        <nav>
+            <ul>
+                <li class="nav1"><a href="../index.html">Home</a></li>
+                <li class="nav2"><a href="video.html">Music Videos</a></li>
+                <li class="nav3"><a href="images.html">Albums Art</a>
+                    <ul>
+                        <li><a href="">Single - Drones (2019)</a></li>
+                        <li><a href="">Single - Hall of Shame (2019)</a></li>
+                        <li><a href="">Single - How We Operate (2017)</a></li>
+                        <li><a href="">Album - Death Monster Super Squad (2016)</a></li>
+                        <li><a href="">Album - Voodoo Love Machine (2012)</a></li>
+                    </ul>
+                </li>
+                <li id="currentPage" class="nav4"><a href="">Feedback</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="nav-sidebar">
+                <aside>
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="../index.html"><img title="Home" alt="band logo" src="../thumbnails/home.png"><figcaption>Home</figcaption></a></li>
+                        <li><a href="video.html"><img title="Videos" alt="video icon" src="../thumbnails/film.png"><figcaption>Music Videos</figcaption></a></li><!-- icon made by Freepik on flaticon.com-->
+                        <li><a href="images.html"><img title="Albums" alt="cd icon" src="../thumbnails/CD.png"><figcaption>Album Art</figcaption></a></li><!-- icon made by Freepik on flaticon.com-->
+                        <li><a href=""><img title="Feedback" alt="feedback icon" src="../thumbnails/feedback.png"><figcaption>Feedback</figcaption></a></li><!--icon made by Those Icons on flaticon.com-->
+                    </ul>
+                </aside>
+            </div>
+            <div class="maincontent">
+                <form action="process-form" method="post">
+                <fieldset class=form1>
+                    <legend>User Details</legend>
+                    <div class="nameinput"> 
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Firstname Lastname" tabindex="1">
+                    </div>
+                    <div class="emailinput">
+                        <label for="email">Email Address: </label>
+                        <input type="email" name="email" id="email" placeholder="Example@email.com" tabindex="2">
+                    </div>
+                    <div class="dropdownlist">
+                        <label for="dropdown">What did you like most:</label>
+                        <select name="dropdown" id="dropdown"  tabindex="3">
+                            <option value="homepage">The Home Page</option>
+                            <optgroup label="Music Videos Page">
+                                <option value="main-vid">Main Video</option>
+                                <option value="side-vid1">Sidebar Video 1</option>
+                                <option value="side-vid2">Sidebar Video 2</option>
+                                <option value="side-vid3">Sidebar Video 3</option>
+                                <option value="side-vid4">Sidebar Video 4</option>
+                            </optgroup>
+                            <optgroup label="Albums and Singles Page">
+                                <option value="album1">"Drones" Art</option>
+                                <option value="album2">"Hall of Shame" Art</option>
+                                <option value="album3">"How We Operate" Art</option>
+                                <option value="album4">"Death Monster Super Squad" Art</option>
+                                <option value="album5">"Voodoo Love Machine" Art</option>
+                            </optgroup>
+                            <option value="feedbackpage">Feedback Page</option>
+                        </select>
+                    </div>
+                    <div class="multiselection">
+                        <label for="multi-select">What do you like about Osaka Punch?</label>
+                        <select name="multi-select" size="4" multiple="multiple" tabindex="4">
+                            <option value="music">Their music</option>
+                            <option value="australian">They are from Australia</option>
+                            <option value="name">Their Band Name</option>
+                            <option value="art">Their Album Art</option>
+                        </select>
+                    </div>
+                    <div class="textarea">
+                        <label for="comments">Other Comments: </label>
+                        <textarea name="comments" id="comments" cols="50" rows="7" tabindex="5"></textarea>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" tabindex="6">
+                        <input type="reset" tabindex="7">
+                    </div>
+                </fieldset>
+                </form>
+            </div>
+            <div class="right-sidebar">
+                <aside>
+                    <h3>Website Feedback</h3>
+                    <form action="process-form" method="post">
+                        <div class="form2">
+                            <h4>How I felt about this website:</h4>
+                            <div class="checkboxes"> 
+                                <div>   
+                                    <input type="checkbox" name="fun" id="fun" value="yes" tabindex="8">
+                                    <label for="fun"> I felt the website was fun to visit</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="design" id="design" value="yes" tabindex="9">
+                                    <label for="design">I felt the website was deisgned well</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="colours" id="colours" value="yes" tabindex="10">
+                                    <label for="colours">I  thing that the website used good colours</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="contrast" id="contrast" value="yes" tabindex="11">
+                                    <label for="contrast">I found it easy to read the text on the website</label>
+                                </div>
+                            </div>
+                            <h4 class="visit">Will you visit my site again?</h4>
+                            <div class="radios">
+                                <input type="radio" name="comeback" id="comebackY" value="yes" tabindex="12">
+                                <label for="comebackY">-Yes</label>
+                                <input type="radio" name="comeback" id="comebackN" value="no" tabindex="13">
+                                <label for="comebackN">-No</label>
+                            </div>
+                            <div class="buttons2">
+                                <input type="submit" tabindex="14">
+                                <input type="reset" tabindex="15">
+                            </div>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">&copy; 2021 Casey Snoek<br>Csnoek9131@conestogac.on.ca</div>
+            <div class="iconcredits">
+                Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
+                Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br>
+                Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
+        </footer>
+    </body>
+</html>

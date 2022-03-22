@@ -1,0 +1,67 @@
+header h3{
+    margin: -20px 40px 0 0;
+}
+
+.albumart{
+    display: grid;
+    height: 845px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+}
+
+figure{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.384);
+    border: 30px solid rgba(0, 0, 0, 0.384);
+}
+
+figure figcaption{
+    background-color: rgba(0, 0, 0, 0.384)
+}
+
+.clip1{
+    clip-path: polygon(100% 0%, 96% 49%, 100% 100%, 2% 98%, 3% 50%, 0 1%);
+}
+
+.clip2{
+    clip-path: polygon(95% 0, 96% 49%, 98% 98%, 5% 100%, 3% 50%, 0 5%);
+}
+
+.clip3{
+    clip-path: polygon(8% 0, 90% 0, 100% 13%, 100% 92%, 89% 100%, 10% 100%, 0 89%, 0 13%);
+}
+
+.clip4{
+    clip-path: polygon(5% 5%, 100% 0%, 93% 100%, 0% 100%);
+}
+
+.clip5{
+    clip-path: polygon(0 3%, 95% 4%, 100% 100%, 4% 98%);
+}
+
+.tracklists{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr 2fr;
+    height: 795px;
+    grid-gap: 10px;
+    overflow-y: auto;
+}
+
+.right-sidebar ol{
+    border-top: 5px dashed rgba(0, 0, 0, 0.384);
+    padding-bottom: 15px;
+}
+
+aside h4{
+    text-decoration: underline;
+    font-size: larger;
+    margin: 10px auto 10px auto;
+}
+
+@media screen and (max-width:1200px){
+    .albumart img{
+        width: 200px;
+        height: 200px;
+    }
+}
